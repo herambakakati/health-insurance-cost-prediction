@@ -1,6 +1,4 @@
-# ================================
-# STREAMLIT APP (FINAL)
-# ================================
+# STREAMLIT APP 
 
 import streamlit as st
 import pandas as pd
@@ -105,7 +103,7 @@ smoker = st.sidebar.selectbox("Smoker", ["yes","no"])
 region = st.sidebar.selectbox("Region", ["northwest","northeast","southeast","southwest"])
 
 st.sidebar.markdown("---")
-st.sidebar.write("Copyright 2026 Heramba Kakati")
+st.sidebar.write("Developed by Heramba Kakati,2026")
 
 # INPUT
 input_data = pd.DataFrame({
